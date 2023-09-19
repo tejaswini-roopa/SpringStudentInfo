@@ -12,12 +12,12 @@ SpringStudentInfo is a simple Spring Boot web application that manages student i
 - [MySQL](https://www.mysql.com/) - The chosen relational database management system.
 - [Maven](https://maven.apache.org/) - Dependency management and build tool.
 
-1.Navigate to the project directory:
+Navigate to the project directory:
 -   cd SpringStudentInfo
-2.Configure the database connection by editing the application.properties file in the src/main/resources directory. Replace the placeholders with your MySQL credentials:
+Configure the database connection by editing the application.properties file in the src/main/resources directory. Replace the placeholders with your MySQL credentials:
 -   spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
     spring.datasource.username=your_username
     spring.datasource.password=your_password
-3.Build and run the project using Maven:
+Build and run the project using Maven:
 -    mvn spring-boot:run
-4.The application will be available at http://localhost:8080.      
+Application will be available at http://localhost:8080.      
